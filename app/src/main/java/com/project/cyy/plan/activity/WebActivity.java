@@ -37,6 +37,10 @@ import com.project.cyy.plan.R;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Created by cyy
+ * on 18-5-29下午5:43
+ */
 public class WebActivity extends AppCompatActivity {
     private ValueCallback mUploadMessage;
     public static final int TAKE_PHOTO = 10001;
@@ -44,6 +48,7 @@ public class WebActivity extends AppCompatActivity {
     private Uri imageUri;
 
     private ConstraintLayout clRoot;
+
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -226,7 +231,7 @@ public class WebActivity extends AppCompatActivity {
                         mUploadMessage.onReceiveValue(imageUri);
                     }
                     mUploadMessage = null;
-                }else {
+                } else {
                     mUploadMessage.onReceiveValue(null);
                     mUploadMessage = null;
                     return;
@@ -248,7 +253,7 @@ public class WebActivity extends AppCompatActivity {
                         mUploadMessage.onReceiveValue(data.getData());
                     }
                     mUploadMessage = null;
-                }else {
+                } else {
                     mUploadMessage.onReceiveValue(null);
                     mUploadMessage = null;
                     return;

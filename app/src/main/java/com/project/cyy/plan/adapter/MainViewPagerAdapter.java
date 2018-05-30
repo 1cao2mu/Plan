@@ -11,7 +11,6 @@ import java.util.List;
  * Created by cyy
  * on 18-3-9.
  */
-
 public class MainViewPagerAdapter extends FragmentPagerAdapter {
 
 

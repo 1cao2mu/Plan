@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_high"
+    android:background="#0e932e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_high">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_tou_halftou"
+            android:padding="12dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/icon_back" />
+
+        <ImageView
+            android:id="@+id/iv_action"
+            android:layout_width="@dimen/title_high"
+            android:layout_height="@dimen/title_high"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_tou_halftou"
+            android:padding="10dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tv_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_tou_halftou"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textScaleX="1.0"
+            android:textSize="@dimen/textsize_xl_13" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_h_18" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

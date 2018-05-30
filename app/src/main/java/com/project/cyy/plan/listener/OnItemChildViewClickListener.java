@@ -6,5 +6,4 @@ package com.project.cyy.plan.listener;
  */
 public interface OnItemChildViewClickListener {
     void onItemChildViewClickListener(int id, int position);
-
- }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_high"
+    android:background="#0e932e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_high">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/selector_tou_halftou"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg_app_1" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_logo"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="发现"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_h_18" />
+
+        <ImageView
+            android:id="@+id/iv_action"
+            android:layout_width="@dimen/title_high"
+            android:layout_height="@dimen/title_high"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_tou_halftou"
+            android:padding="6dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/bg_app_1" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

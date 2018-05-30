@@ -5,10 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.project.cyy.plan.R;
-import com.project.cyy.plan.activity.MainActivity;
 
 /**
- * 启动页面
+ * Created by cyy
+ * on 18-5-29下午5:43
  */
 public class SplashActivity extends Activity {
 

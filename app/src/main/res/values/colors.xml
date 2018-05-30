@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="base_bg">#f4f2f3</color>
+    <color name="base_line">#e6e6e6</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="text_white">#ffffff</color>
+    <color name="tou">#00000000</color>
+    <color name="halftou">#1f000000</color>
+    <color name="mine_tab_bg_normal">#fefefe</color>
+    <color name="text_black">#010101</color>
+    <color name="text_blue">#0e932e</color>
+    <color name="text_gray">#979596</color>
+    <color name="text_red">#ef0000</color>
+    <color name="ripple_material_light" tools:ignore="PrivateResource">#1f000000</color>
+
+    <color name="teal">#00796B</color>
+    <color name="brown">#8D6E63</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#607D8B</color>
+    <color name="orange">#F57C00</color>
 </resources>
