@@ -2,11 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_life"
-        android:icon="@drawable/ic_life_black_24dp"
-        android:title="@string/title_life" />
-
-    <item
         android:id="@+id/navigation_learn"
         android:icon="@drawable/ic_learn_black_24dp"
         android:title="@string/title_learn" />
@@ -14,7 +9,10 @@
         android:id="@+id/navigation_work"
         android:icon="@drawable/ic_work_black_24dp"
         android:title="@string/title_work" />
-
+    <item
+        android:id="@+id/navigation_life"
+        android:icon="@drawable/ic_life_black_24dp"
+        android:title="@string/title_life" />
     <item
         android:id="@+id/navigation_entertainment"
         android:icon="@drawable/ic_entertainment_black_24dp"

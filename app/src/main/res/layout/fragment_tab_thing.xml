@@ -3,10 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <include layout="@layout/include_view_top_tab" />
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/srl_refresh"

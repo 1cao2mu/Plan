@@ -200,14 +200,11 @@ public class RoundImageView extends AppCompatImageView {
      */
     private void drawCircleBorder(Canvas canvas, int radius, int color) {
         Paint paint = new Paint();
-		/* 去锯�? */
         paint.setAntiAlias(true);
         paint.setFilterBitmap(true);
         paint.setDither(true);
         paint.setColor(color);
-		/* 设置paint的�??style�?为STROKE：空�? */
         paint.setStyle(Paint.Style.STROKE);
-		/* 设置paint的外框宽�? */
         paint.setStrokeWidth(mBorderThickness);
         canvas.drawCircle(defaultWidth / 2, defaultHeight / 2, radius, paint);
     }
