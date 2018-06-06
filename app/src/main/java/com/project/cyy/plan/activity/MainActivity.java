@@ -120,9 +120,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int index=vp_content.getCurrentItem();
-        Intent intent = new Intent(mFragmentList.get(index).getContext(), AddThingActivity.class);
+        Intent intent = new Intent(this, AddThingActivity.class);
         intent.putExtra("index",index );
-        startActivityForResult(intent, 10001);
+        if (mFragmentList.get(index).isAdded())
+       mFragmentList.get(index).startActivityForResult(intent, 10001);
         return true;
     }
 

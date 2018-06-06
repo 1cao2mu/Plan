@@ -144,8 +144,8 @@ public class ThingTabFragment extends Fragment implements OnItemChildViewClickLi
     }
 
     public void onRefresh() {
-        page = 1;
-        initData();
+//        page = 1;
+//        initData();
     }
 
     @Override
